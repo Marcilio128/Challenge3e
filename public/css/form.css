@@ -1,0 +1,115 @@
+*{
+    border: none;
+    margin: 0%;
+    padding: 0%;
+}
+@keyframes back{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+@font-face{
+    font-family: 'whit';
+    src: url(whitneylight.otf);
+}
+.imgfundo{
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    filter: blur(5px);
+    position: absolute;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff4f;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.iptstyle{
+    width: 50%;
+    padding: 1%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    text-shadow: 1px 1px 1px white;
+}
+.adjust{
+    width: 0%;
+    opacity: 0;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 3%;
+}
+input{
+    font-family: "whit";
+    padding: 5%;
+    border-radius: 30px;
+}
+select{
+    font-family: "whit";
+    padding: 5%;
+    border-radius: 30px;
+}
+.btn{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-family: "whit";
+    font-size: 17px;
+    padding: 4% 6%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px 1px rgb(235, 235, 235);
+}
+button:hover{
+    box-shadow: 1px 1px 10px 1px rgb(235, 235, 235);
+}
+input:hover{
+    box-shadow: 1px 1px 10px 1px rgb(230, 230, 230);
+}
+select:hover{
+    box-shadow: 1px 1px 10px 1px rgb(230, 230, 230);
+}
+.fundo{
+    background-image: url(/img/3emural.jpg);
+    background-repeat: no-repeat;
+}
+.imglogo{
+    width: 5vw;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.btnposition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.voltar img{
+    transition: 0.1s ease;
+}
+.voltar :hover{
+    transform: scale(125%);
+}
